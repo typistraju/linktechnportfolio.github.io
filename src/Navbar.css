@@ -1,0 +1,76 @@
+li {
+    list-style: none;
+  }
+  
+
+
+  .social-media ul {
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 4fr repeat(4, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .social-media ul li {
+    text-align: right;
+  }
+
+  .social-media ul li:first-child {
+    grid-column: 2/3;
+  }
+  .social-media ul li {
+    font-size: 2rem;
+  }
+
+  .social-media .hamburger-menu {
+    display: none;
+  }
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #b81594;
+}
+
+.youtube {
+  color: #ff0000;
+}
+.twitter {
+    color: #3562c2;
+  }
+/* responsive css style  */
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 8rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+    .main-nav {
+      height: 7rem;
+      grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    }
+  
+  .menu-link {
+    display: none;
+  }
+
+  .logo,
+  .social-media ul {
+    height: 7rem;
+  }
+}
+.social-media {
+    height: 6rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+
+  
+
